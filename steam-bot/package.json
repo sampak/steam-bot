@@ -1,0 +1,31 @@
+{
+  "name": "gtt-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start:dev": "nodemon",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/steam-totp": "^2.1.0",
+    "@types/steamcommunity": "^3.43.2",
+    "@types/steamid": "^2.0.1",
+    "express": "^4.18.2",
+    "steam-tradeoffer-manager": "^2.10.5",
+    "steam-user": "^4.25.0",
+    "steamcommunity": "^3.44.3",
+    "steamid": "^2.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "jest": "27.5.1",
+    "nodemon": "^1.19.1",
+    "ts-jest": "27.1.5",
+    "tslint": "^5.18.0",
+    "typescript": "^3.9.7"
+  }
+}

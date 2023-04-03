@@ -1,0 +1,7 @@
+{
+  "verbose": true,
+  "exec": "node -r ts-node/register -r tsconfig-paths/register -r dotenv/config src/main.ts",
+  "ignore": [".git", "dist", "node_modules", "src/public"],
+  "watch": ["src"],
+  "ext": "ts,json"
+}
